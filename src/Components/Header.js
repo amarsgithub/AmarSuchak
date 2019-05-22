@@ -35,12 +35,11 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">Hi! I'm {name}.</h1>
-                <h3><span>A {occupation}. {description}.</span></h3>
+                <h3><span>A {occupation}. {description}</span></h3>
             <hr />
-                <form action="https://drive.google.com/file/d/18JDLW-UxcM4K8urBbr-xxHiRN1GxnUoc/view?usp=sharing">
-               {/* <button type="submit">Click here to see my resume!</button> */}
+               <form action="https://drive.google.com/file/d/18JDLW-UxcM4K8urBbr-xxHiRN1GxnUoc/view?usp=sharing">
                <input type="submit" value="Click here to see my resume!" />
-            </form>
+               </form>
             <ul className="social">
                {networks}
             </ul>
